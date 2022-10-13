@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <p class="parrafo">Comprueba aquí sí tu Tarjeta de Crédito es Válida</p>
+  <!--Primera Página-- debe Ocultarse-->
+  <div id="contenedor">
+    <form id="form1" class="form1" name="form1" method="post">
+      <br>
+      <label id="labelNum" for="numTarjeta"> Número de Tarjeta </label>
+      <br>
+      <input type="text" id="numTarjeta" placeholder="Ingrese Número">
+      <br>
+      <label> Nombre del Titular de la Tarjeta </label>
+      <br>
+      <input type="string" name="nombre">
+      <br>
+      <label> Fecha de Expiración </label>
+      <br>
+      <select name="mes" id="selectMes">
+        <option disabled selected>Mes</option>
+      </select>
+      <br>
+      <select name="year" id="selectYear">
+        <option disabled selected>Año</option>
+      </select>
+      <br>
+
+      <label>CVV</label>
+      <br>
+      <input maxlength="3"  type="text">
+      <br><br>
+
+      <button id="btnValidar"> VERIFICAR TARJETA </button>
+    </form>
+  </div>
+
+  <script src="index.js" type="module"></script>
+
+
+</body>
+
+</html>
