@@ -20,6 +20,8 @@ En este proyecto construí una aplicación web que le permita a un usuario valid
 
 ##  Interfaz
 <a href="https://ibb.co/sJDfKY4"><img src="https://i.ibb.co/Dg6J92F/45c7ed31-05eb-4e2e-acc4-20e7f0598186-1.jpg" alt="45c7ed31-05eb-4e2e-acc4-20e7f0598186-1" border="0"></a>
+<a href="https://ibb.co/T0ksS31"><img src="https://i.ibb.co/8x0HpZb/IMG-4429.png" alt="IMG-4429" border="0"></a>
+
 
 
 *
