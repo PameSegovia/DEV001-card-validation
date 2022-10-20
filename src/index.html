@@ -8,41 +8,46 @@
 </head>
 
 <body>
-  <p class="parrafo">Comprueba aquí sí tu Tarjeta de Crédito es Válida</p>
   <!--Primera Página-- debe Ocultarse-->
-  <div id="contenedor">
-    <form id="form1" class="form1" name="form1" method="post">
-      <br>
-      <label id="labelNum" for="numTarjeta"> Número de Tarjeta </label>
-      <br>
-      <input type="text" id="numTarjeta" placeholder="Ingrese Número">
-      <br>
-      <label> Nombre del Titular de la Tarjeta </label>
-      <br>
-      <input type="string" name="nombre">
-      <br>
-      <label> Fecha de Expiración </label>
-      <br>
-      <select name="mes" id="selectMes">
-        <option disabled selected>Mes</option>
-      </select>
-      <br>
-      <select name="year" id="selectYear">
-        <option disabled selected>Año</option>
-      </select>
-      <br>
+  <h1 class="parrafo">Comprueba aquí sí tu Tarjeta de Crédito es Válida</h1><br>
+  <flexbox id="flexbox"></flexbox>
+  <section id="contenedor" class="mostrar">
+    <br>
+    <label id="labelNum" for="numTarjeta"> Número de Tarjeta </label>
+    <br>
+    <input type="text" id="numTarjeta" placeholder="Ingrese Número">
+    <br>
+    <label> Nombre del Titular de la Tarjeta </label>
+    <br>
+    <input type="string" name="nombre">
+    <br>
+    <label> Fecha de Expiración </label>
+    <br>
+    <select name="mes" id="selectMes">
+      <option disabled selected>Mes</option>
+    </select>
+    <br>
+    <select name="year" id="selectYear">
+      <option disabled selected>Año</option>
+    </select>
+    <br>
 
-      <label>CVV</label>
-      <br>
-      <input maxlength="3"  type="text">
-      <br><br>
+    <label>CVV</label>
+    <br>
+    <input maxlength="3" type="text">
+    <br><br>
 
-      <button id="btnValidar"> VERIFICAR TARJETA </button>
-    </form>
+    <button id="btnValidar">VERIFICAR TARJETA </button>
+    <br>
+  </section>
+
+  <div id="contenedor2" class="ocultar">
+    <p class="verRespuesta" id="verRespuestas">**** </p>
+
+    <button id="btnVolver" onclick="reload()">VALIDAR OTRA TARJETA </button>
   </div>
 
   <script src="index.js" type="module"></script>
-
 
 </body>
 
