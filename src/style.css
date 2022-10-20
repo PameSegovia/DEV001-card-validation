@@ -4,31 +4,31 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+#flexbox{
+  justify-content: center;
+}
+
 .parrafo {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 25px;
   color: #1B1600;
-  display: block;
   text-align: center;
-  padding: 20px;
-  margin-top: 50px;
 
 }
 
 
 #contenedor {
+  position: relative;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 18px;
   color: #1B1600;
-  display: block;
-  margin: auto;
-  width: 400px;
-  display: block;
-  box-sizing: 100px;
+  margin: 50px 430px ;
+  width: 500px;
+  height: 400px;
   padding: 60px;
   max-width: 400px;
   background-color: #E7E7E7;
-  height: 300px;
+  height: 400px;
   border-radius: 13px;
   border: 2px dotted #cc5577;
   text-align: center;
@@ -51,3 +51,59 @@ body {
   background-color: #236559;
   color: white;
 }
+
+#contenedor2 {
+  margin: 0px 430px 700px ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  color: #1B1600;
+  padding: 50px;
+  width: 500px;
+  height: 250px;
+  max-width: 400px;
+  max-width: 400px;
+  background-color: #E7E7E7;
+  display: block;
+  border-radius: 13px;
+  border: 2px dotted #cc5577;
+  text-align: center;
+
+}
+  
+.verRespuesta{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  color: #1B1600;
+  display: block;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+
+}
+
+#btnVolver {
+  width: 200px;
+  background-color: #CC1564;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 20px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+
+#btnVolver:hover {
+  background-color: #236559;
+  color: white;
+}
+
+.ocultar{
+  display: block;
+
+}
+
+.mostrar{
+  display: block;
+}
+
