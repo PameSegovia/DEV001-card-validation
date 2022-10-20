@@ -6,13 +6,13 @@ const validator = {
     //----------------------------------------//
     for (let i = 0; i < arr.length; i++) {
       //recorrer el arrreglo y guardarlo en en arra2 , lo que queremos
-      if (i %  2=== 1 ) {
+      if (i % 2 === 1) {
         let doblado = parseInt(arr[i]) * 2;
         //si lo doblado es mayor que 9 ,sumamos sus digitos
         if (doblado > 9) {
           // sumas sus digitos del doblado.
           const sumaDigitos = doblado - 9;
-         
+
           //guardar sumadigitos en el arra2
           arra2.push(sumaDigitos);
         }
@@ -27,7 +27,7 @@ const validator = {
       }
     }
     //sumar elementos de arra2
-   
+
     let sumaTotal = 0;
     arra2.forEach(function (elementos) {
       sumaTotal += elementos;
@@ -44,7 +44,7 @@ const validator = {
     return resultado;
 
   },
-
+  //FUNCION ENMASCARAR PRIMEROS NUMEROS
   maskify(creditCardNumber) {
     if (creditCardNumber.length <= 4) {
       return creditCardNumber;
@@ -57,11 +57,6 @@ const validator = {
       let numerOculto = primerosNum.replace(/./g, "#" + "") + ultimosCuatro;
       return numerOculto;
     }
-
-
-
-
-
 
   }
 
